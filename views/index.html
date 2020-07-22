@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="../js/scripts.js"></script>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&effect=anaglyph" rel="stylesheet">
+</head>
+<body>
+
+<h1 class="font-effect-anaglyph"> Simple Weather App </h1>
+
+
+    <label for="cityName">City Name </label><input id="cityName" type="text">
+    <input id="submit" type="submit">
+
+<table class="center">
+    <tr>
+        <td>Temperature</td>
+        <td>Humidity</td>
+        <td>Wind Speed</td>
+        <td>Weather Description</td>
+    </tr>
+    <tr>
+        <td id="temp"></td>
+        <td id="hum"></td>
+        <td id="wind"></td>
+        <td id="description"></td>
+    </tr>
+</table>
+<span><img id="weatherDisplay"></span>
+<h3 id="valid"></h3>
+
+</table>
+</body>
+</html>

@@ -1,0 +1,45 @@
+body {
+    font-family: 'Oswald', serif;
+    text-align: center;
+    color: wheat;
+    font-size: 2em;
+    background: saddlebrown;
+}
+
+
+#submit {
+    background: saddlebrown;
+    color: wheat;
+    font-size: 1em;
+}
+
+input  {
+    font-family: 'Oswald', serif;
+    font-size: .5em;
+    background: wheat;
+    border: solid white;
+    color: #222222;
+}
+
+table.center {
+    background: saddlebrown;
+    border: solid white;
+    text-align: center;
+    margin: 20px auto;
+}
+
+td {
+    padding: .5em;
+    border: 5px solid white;
+}
+
+
+img{
+    border: solid white;
+}
+
+#submit:hover {
+    font-size: 1.25em;
+    border: dotted black;
+    transition: 2s;
+}
